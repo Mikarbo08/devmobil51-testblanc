@@ -1,0 +1,20 @@
+{
+  "name": "code-testblanc",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "circle:server": "node src/backend/CircleServer.mjs"
+  },
+  "devDependencies": {
+    "vite": "^5.4.10"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue": "^5.1.5",
+    "vue": "^3.5.12",
+    "ws": "^8.18.0"
+  }
+}
